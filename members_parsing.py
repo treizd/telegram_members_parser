@@ -1,3 +1,12 @@
+# Telegram members parser - Power async tool for parsing telegram members
+# Copyright (c) 2025 Treizd
+#
+# This file is part of telegram_members_parser project.
+#
+# members_parsing is free software: you can redistribute it and/or modify
+# it under the terms of the MIT License. See the LICENSE file for details.
+
+
 from pyrogram import Client
 import asyncio
 import json
@@ -50,4 +59,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
